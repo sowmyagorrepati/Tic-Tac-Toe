@@ -88,3 +88,43 @@ h1 {
     background-color: rgb(37, 141, 246) !important;
     color: white;
 }
+
+@media (max-width: 607px) {
+    .container {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .game {
+        height: 70vmin;
+        width: 70vmin;
+        gap: 5px;
+    }
+
+    .box {
+        height: 20vmin;
+        width: 20vmin;
+        font-size: 8vmin;
+    }
+
+    #reset, #newgame, #playComputer, #twoPlayer {
+        width: 180px;
+        height: 35px;
+        font-size: 14px;
+        margin: 5px; /* Adjust margin for smaller screens */
+    }
+
+    #msg {
+        font-size: 7vmin;
+    }
+
+    #turn-msg {
+        font-size: 18px;
+        margin: 5px;
+    }
+}

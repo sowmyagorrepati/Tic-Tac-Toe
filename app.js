@@ -40,7 +40,7 @@ boxes.forEach(box => {
             checkGameStatus();
 
             if (playAgainstComputer && !turnO) {
-                setTimeout(computerMove, 700);
+                setTimeout(computerMove, 200);
             }
         }
     });
